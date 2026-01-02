@@ -19,7 +19,7 @@ export async function sendEmail({
   pdfFilename,
 }: SendEmailOptions) {
   const transporter = nodemailer.createTransport({
-    host: "smtp.office365.com",
+    host: "smtp.gmail.com",
     port: 587,
     secure: false, // Must be false for STARTTLS
     auth: {
