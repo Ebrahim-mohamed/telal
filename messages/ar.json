@@ -1,0 +1,95 @@
+{
+  "mainPage": {
+    "property-types": "النماذج",
+    "location": "الموقع"
+  },
+  "locationPage": {
+    "residential-compound": "واجهة سكنية",
+    "view-project": "عرض المشروع"
+  },
+  "NavBars": {
+    "info": "معلومات",
+    "location": "الموقع",
+    "facilities": "المرافق",
+    "gallery": "المعرض",
+    "master-plan": "المخطط الرئيسي",
+    "floor-plans": "النماذج",
+    "payment": "الدفع",
+    "inquiry-form": "النموذج",
+    "share": "مشاركة",
+    "entertainment": "الترفيه",
+    "mosques": "المساجد",
+    "medical": "المستشفيات",
+    "education": "التعليم",
+    "security": "الامان",
+    "hospitals": "المستشفيات",
+    "shopping": "التسوق",
+    "landmarks": "المعالم"
+  },
+  "types": {
+    "model-1": "النموذج 1",
+    "model-2": "النموذج 2",
+    "model-3": "النموذج 3",
+    "model-4": "النموذج 4"
+  },
+  "info-component": {
+    "location": "أسلوب حياة عصري يتميز بمساحات خضراء وحدائق ومناطق ترفيهية.",
+    "buildings": "مساحات معيشية عصرية بتصاميم راقية تجمع بين الفخامة والخصوصية.",
+    "parks": "مرافق بمعايير عالمية، توفر وسائل الترفيه واللياقة والاستجمام لنمط حياة راقٍ.",
+    "accessibility": "موقع استراتيجي على بُعد حوالي 10 كم من وسط جدة وبالقرب من الكورنيش، متمركز بين معالم رئيسية وحيوية."
+  },
+  "inquiry-form": {
+    "title": "نموذج الاستفسار",
+    "submit": "ارسال",
+    "cancel": "الغاء",
+    "first-name": "الاسم الاول",
+    "last-name": "الاسم الاخير",
+    "phone-number": "رقم الهاتف",
+    "e-mail": "البريد الالكتروني",
+    "broker-name": "اسم الوسيط (اختياري)"
+  },
+  "share-form": {
+    "title": "المشاركه بواسطة البريد الالكنروني",
+    "e-mail": "اكتب البريد الالكتروني هنا",
+    "first-name": "الاسم الاول",
+    "last-name": "الاسم الاخير",
+    "phone-number": "رقم الهاتف",
+    "submit": "مشاركة"
+  },
+  "payment": {
+    "unit-number": "رقم الوحدة",
+    "block-number": "رقم البلوك",
+    "property-type": "نوع العقار",
+    "net-sellable-area": "المساحة",
+    "years-of-installment": "عدد سنوات التقسيط",
+    "finishing": "التشطيب",
+    "market-price": "القيمة الاجمالية قبل الدعم",
+    "meter": "م",
+    "fully-furnished": "تشطيب كامل",
+    "year": "سنة",
+    "moh-price": "القيمة الاجمالية بعد الدعم",
+    "bank-partners": "الجهات التمويلية",
+    "to-buy": "(للشراء اضغط علي سكني)",
+    "tilal": "تلال",
+    "villa": "فيلا",
+    "of-installment": "التقسيط",
+    "years": " سنوات"
+  },
+  "bank-table": {
+    "bank-name": "اسم البنك",
+    "interest-rate": "نسبة التمويل",
+    "sab": "الاول SAB",
+    "snb": "الاهلي SNB",
+    "albllad": "البلاد",
+    "aljazira": "الجزيرة",
+    "anb": "ANB",
+    "bsf": "BSF",
+    "alinma": "مصرف النماء",
+    "riyad": "الرياض",
+    "alrajhi": "الراجحي",
+    "sib": "السعودي للاستثمار"
+  },
+  "floor": {
+    "floor-plans": "المخطط"
+  }
+}

@@ -1,0 +1,21 @@
+.table {
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+.table th {
+  font-style: italic;
+  /*padding: 8px 20px;*/
+}
+.table::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 4px !important;
+}
+
+.table::-webkit-scrollbar-thumb {
+  background-color: red !important;
+  border-radius: 4px !important;
+}
+
+.table::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}

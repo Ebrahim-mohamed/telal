@@ -1,0 +1,26 @@
+services:
+  nextjs:
+    # image: registry.gitlab.com/scicave1/telal-realestate:1.00
+    image: registry.gitlab.com/scicave1/telal-realestate:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+    networks:
+      - app-network
+
+  mongodb:
+    image: mongodb/mongodb-community-server:latest
+    ports:
+      - "27017:27017"
+    # volumes:
+    #   - mongodb_data:/data/db
+    networks:
+      - app-network
+
+# volumes:
+#   mongodb_data:
+
+networks:
+  app-network:
+    driver: bridge

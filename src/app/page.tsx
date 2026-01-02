@@ -1,0 +1,35 @@
+"use client";
+import { useRouter } from "next/navigation";
+
+export default function Home() {
+  const router = useRouter();
+  return (
+    <html>
+      <body>
+        <div
+          className="h-screen w-full relative bg-cover bg-[url('/assets/landingBackground.avif')]"
+          onClick={() => router.push("/en")}
+        >
+          <div className="w-[100%] justify-center flex absolute top-[10%] left-1/2 translate-x-[-50%]">
+            <img
+              src="/assets/TilalHwadi_dark.png"
+              alt="telal logo"
+              className="max-sm:w-[70%] w-[30%] max-[1300px]:w-[50%] max-[1000px]:w-[60%] "
+            />
+          </div>
+          <div className="flex justify-center absolute w-full max-h-fit gap-10 items-center max-[3000px]:bottom-[2rem] max-[500px]:bottom-[8rem] max-[1100px]:bottom-[20rem] bottom-[18rem] left-1/2 translate-x-[-50%]">
+            <img
+              src="/assets/Hwadi-logo.png"
+              className="w-[15%] max-[1700px]:w-[13%] max-[1300px]:w-[25%] max-[1000px]:w-[30%] "
+            />
+            <div className="max-[3000px]:h-[10rem]  max-[2000px]:w-[0.2rem] max-[1700px]:h-[5rem] max-[1200px]:h-[8rem] max-[500px]:h-[5rem] h-[16rem] w-[0.5rem] bg-white"></div>
+            <img
+              src="/assets/Jeddah_Heights_dark.png"
+              className="w-[15%] max-[1700px]:w-[13%] max-[1300px]:w-[25%] max-[1000px]:w-[30%] "
+            />
+          </div>
+        </div>
+      </body>
+    </html>
+  );
+}

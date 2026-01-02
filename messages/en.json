@@ -1,0 +1,95 @@
+{
+  "mainPage": {
+    "property-types": "Property Types",
+    "location": "Location"
+  },
+  "locationPage": {
+    "residential-compound": "Residential Compound",
+    "view-project": "View Project"
+  },
+  "NavBars": {
+    "info": "Info",
+    "location": "Location",
+    "facilities": "Facilities",
+    "gallery": "Gallery",
+    "master-plan": "Master Plan",
+    "floor-plans": "Floor Plans",
+    "payment": "Payment",
+    "inquiry-form": "Inquiry Form",
+    "share": "Share",
+    "entertainment": "Entertainment",
+    "mosques": "Mosques",
+    "medical": "Medical",
+    "education": "Education",
+    "security": "Security",
+    "hospitals": "Hospitals",
+    "shopping": "Shopping",
+    "landmarks": "Landmarks"
+  },
+  "types": {
+    "model-1": "Model 1",
+    "model-2": "Model 2",
+    "model-3": "Model 3",
+    "model-4": "Model 4"
+  },
+  "info-component": {
+    "location": "Contemporary living spaces featuring sophisticated design, combining exclusivity & elegance.",
+    "buildings": "Modern, upscale lifestyle with green spaces, parks, & recreational areas.",
+    "parks": "Located 10 kilometers away from central Jeddah & positioned between key landmarks.",
+    "accessibility": "Contemporary living spaces, sophisticated design, exclusivity & elegance."
+  },
+  "inquiry-form": {
+    "title": "Inquiry Form",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "phone-number": "Phone Number",
+    "e-mail": "Email Address",
+    "broker-name": "Broker Name (Optional)"
+  },
+  "share-form": {
+    "title": "Share via email",
+    "e-mail": "Write your email here",
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "phone-number": "Phone Number",
+    "submit": "Share"
+  },
+  "payment": {
+    "unit-number": "Unit Number",
+    "block-number": "Block Number",
+    "property-type": "Property Model",
+    "net-sellable-area": "Area",
+    "years-of-installment": "Years of installment",
+    "finishing": "Finishing",
+    "market-price": "Market Price",
+    "meter": "m",
+    "fully-furnished": "Fully Finished",
+    "year": "Years",
+    "moh-price": "MOH Price",
+    "bank-partners": "Funding entities",
+    "to-buy": "(To Buy Press Sakani)",
+    "tilal": "Tilal",
+    "villa": "Villa",
+    "of-installment": "of Installment",
+    "years": " Years "
+  },
+  "bank-table": {
+    "bank-name": "Bank Name",
+    "interest-rate": "Interest Rate",
+    "sab": "SAB",
+    "snb": "SNB",
+    "albllad": "Albllad",
+    "aljazira": "ALJAZIRA",
+    "anb": "ANB",
+    "bsf": "BSF",
+    "alinma": "ALINMA",
+    "riyad": "RIYAD",
+    "alrajhi": "ALRAJHI",
+    "sib": "SIB"
+  },
+  "floor": {
+    "floor-plans": "Floor Plans"
+  }
+}
