@@ -16,8 +16,8 @@ export async function addImage(imageData: {
     contentType: imageData.contentType,
   });
 
-  await newImage.save();
-  return newImage.toObject();
+  const savedImage = await newImage.save();
+  return savedImage.toObject() as unknown as IImage;
 }
 
 // Get all images
@@ -25,18 +25,18 @@ export async function getAllImages(): Promise<IImage[]> {
   await connectMongoDB();
 
   const images = await GeneralImageModel.find().lean();
-  return images;
+  return images as unknown as IImage[];
 }
 
-// Optional: Get a single image by ID
+// Get a single image by ID
 export async function getImageById(id: string): Promise<IImage | null> {
   await connectMongoDB();
 
   const image = await GeneralImageModel.findById(id).lean();
-  return image;
+  return image as unknown as IImage | null;
 }
 
-// Optional: Delete an image by ID
+// Delete an image by ID
 export async function deleteImage(id: string): Promise<void> {
   await connectMongoDB();
 
