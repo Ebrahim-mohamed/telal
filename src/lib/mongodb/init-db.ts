@@ -62,7 +62,7 @@ async function createIndexes() {
     await Phase.collection.createIndex({ "location.coordinates": "2dsphere" });
     await Phase.collection.createIndex(
       { name: 1 },
-      { unique: true, sparse: true }
+      { unique: true, sparse: true },
     );
 
     await Unit.collection.createIndex({ "location.coordinates": "2dsphere" });
@@ -134,10 +134,3 @@ export async function validateDatabaseState() {
     console.error("Error validating database state:", error);
   }
 }
-
-initializeDatabase().then(
-  async () =>
-    await validateDatabaseState()
-      .finally(() => process.exit(0))
-      .catch((error) => console.error(error))
-);
