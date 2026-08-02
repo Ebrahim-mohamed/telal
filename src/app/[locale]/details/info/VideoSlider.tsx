@@ -22,6 +22,7 @@ export default function VideoSlider() {
     "https://res.cloudinary.com/dnevlp0j4/video/upload/v1747109773/p0q4dxvmwdyw7d6lnyy0.mp4",
     "https://res.cloudinary.com/dnevlp0j4/video/upload/f_auto:video,q_auto/e4yxmvyomyylyhak9eas",
     "https://res.cloudinary.com/dnevlp0j4/video/upload/f_auto:video,q_auto/nmohtokrowpdkc7my276",
+    "https://res.cloudinary.com/dnevlp0j4/video/upload/v1785673937/Story_4_52_wefd1j.mp4",
   ];
 
   useEffect(() => {
