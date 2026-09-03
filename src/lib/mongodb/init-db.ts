@@ -335,29 +335,3 @@ export async function validateDatabaseState(): Promise<void> {
     throw error;
   }
 }
-
-// ============================================================
-// RUN INITIALIZATION
-// ============================================================
-
-initializeDatabase()
-  .then(async () => {
-    console.log("Database initialization process finished.");
-
-    await mongoose.connection.close();
-
-    console.log("MongoDB connection closed.");
-
-    process.exit(0);
-  })
-  .catch(async (error) => {
-    console.error("Database initialization process failed:", error);
-
-    try {
-      await mongoose.connection.close();
-    } catch (closeError) {
-      console.error("Error closing MongoDB connection:", closeError);
-    }
-
-    process.exit(1);
-  });
