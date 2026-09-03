@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "db:init": "tsx src/lib/mongodb/init-db.ts",
+    "db:init": "tsx src/lib/mongodb/run-init-db.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
