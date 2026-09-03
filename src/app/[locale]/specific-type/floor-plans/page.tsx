@@ -11,10 +11,10 @@ export default function SpecificTypeFloorPlane() {
   const router = useRouter();
 
   const modelRedirectMap: Record<string, string> = {
-    "model-1": "https://model.hwadirealestate.com/model-1/",
-    "model-2": "https://model.hwadirealestate.com/model-2/",
-    "model-3": "https://model.hwadirealestate.com/model-3/",
-    "model-4": "https://model.hwadirealestate.com/model-4/",
+    "model-1": "https://celltekstudio.online/model-1/",
+    "model-2": "https://celltekstudio.online/model-1/",
+    "model-3": "https://celltekstudio.online/model-2/",
+    "model-4": "https://celltekstudio.online/model-2/",
   };
 
   useEffect(() => {
